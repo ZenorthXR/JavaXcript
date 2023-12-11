@@ -2,7 +2,7 @@ function equation(str1) {
     let example, result = 0 ,num="", operator="";
     example = str1.split('');
     
-    for (var n = 0; n < example.length ; n++) {
+    for (let n = 0; n < example.length ; n++) {
         if (Number.isNaN(parseInt(example[n]))) {
             operator += example[n];
 
@@ -73,3 +73,4 @@ equation("1+1");
 equation("7*4-2");
 equation("1+1+1+1+1");
 
+// console.log(eval("1+1"));

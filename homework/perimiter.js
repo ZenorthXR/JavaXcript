@@ -1,7 +1,4 @@
 
-
-
-
 function findPerimeter(length, width) {    
 
     var result = 0
