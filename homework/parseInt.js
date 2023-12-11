@@ -1,5 +1,9 @@
 function equation(str1) {
-    let example, result = 0 ,num="", operator="";
+    let example;
+    let result = 0 ;
+    let num = ""; 
+    let operator = "";
+
     example = str1.split('');
     
     for (let n = 0; n < example.length ; n++) {
